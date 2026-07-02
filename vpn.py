@@ -76,7 +76,6 @@ async def process_get_sub(callback: types.CallbackQuery):
         "4. Нажми <b>«Импортировать»</b>\n\n"
         "✨ <i>Готово! Подписка активирована.</i>\n"
         "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        "🔄 <i>Ссылка всегда актуальна — хранится в репозитории BountyVPN.</i>"
     )
     
     await callback.message.answer(
@@ -101,12 +100,9 @@ async def process_help(callback: types.CallbackQuery):
         "▸ <b>Ссылка не работает?</b>\n"
         "  Убедись, что скопировал полностью.\n"
         "  Если проблема повторяется — напиши в поддержку.\n\n"
-        "▸ <b>Откуда берутся ссылки?</b>\n"
-        "  Из официального репозитория BountyVPN на GitHub.\n\n"
         "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         "🔗 <b>Полезные ссылки:</b>\n"
-        "▸ <a href='https://t.me/BountyVPN'>Официальный канал</a>\n"
-        "▸ <a href='https://github.com/BountyGamesStudio/BountyVPN'>GitHub-репозиторий</a>\n"
+        "▸ <a href='https://t.me/BountyGamesCode'>Официальный канал</a>\n"
         "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         "💬 <i>Есть вопросы? Напиши в поддержку.</i>"
     )
